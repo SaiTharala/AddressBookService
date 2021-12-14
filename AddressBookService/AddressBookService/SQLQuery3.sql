@@ -27,4 +27,9 @@ select * from AddressBook
 --UC4-Edit Contact
 update AddressBook
 set PhoneNumber='1231431431'
-where FirstName='Structure'
+where FirstName='SAM'
+
+--UC5-Delete Contact
+delete AddressBook
+where FirstName='ANT'
+
