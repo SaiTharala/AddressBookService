@@ -22,4 +22,9 @@ insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Em
 ('ANT','E','RN-ROAD','MAD','KP','500044','9998887772','ANT@gmail.com'),
 ('THA','R','RM-ROAD','GAC','AP','500045','9998887771','THA@gmail.com')
 
+select * from AddressBook
 
+--UC4-Edit Contact
+update AddressBook
+set PhoneNumber='1231431431'
+where FirstName='Structure'
