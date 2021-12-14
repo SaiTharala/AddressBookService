@@ -41,3 +41,8 @@ where City='JUB' or State='US'
 select count (*),State,City from AddressBook
 group by State,City
 
+--UC8 Sorting Names
+select * from AddressBook
+where City='HYD'
+order by(FirstName)
+
