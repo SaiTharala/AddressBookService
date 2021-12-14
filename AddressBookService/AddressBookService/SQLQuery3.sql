@@ -37,3 +37,7 @@ where FirstName='ANT'
 select * from AddressBook
 where City='JUB' or State='US'
 
+--UC7 Count Of AddressBook By State And City
+select count (*),State,City from AddressBook
+group by State,City
+
