@@ -13,3 +13,13 @@ create table AddressBook
 	PhoneNumber varchar(20),
 	Email varchar(50)
 	)
+
+--UC3-Insert Contacts
+insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values
+('TSP','T','RN-ROAD','HYD','TL','500041','9998887774','TSP@gmail.com'),
+('SPT','Q','RV-ROAD','BAN','UK','500042','9998887775','SPT@gmail.com'),
+('SAM','W','RB-ROAD','JUB','US','500043','9998887773','SAM@gmail.com'),
+('ANT','E','RN-ROAD','MAD','KP','500044','9998887772','ANT@gmail.com'),
+('THA','R','RM-ROAD','GAC','AP','500045','9998887771','THA@gmail.com')
+
+
