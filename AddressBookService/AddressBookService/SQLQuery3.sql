@@ -33,3 +33,7 @@ where FirstName='SAM'
 delete AddressBook
 where FirstName='ANT'
 
+--UC6-Retrieve Person By City Or State
+select * from AddressBook
+where City='JUB' or State='US'
+
